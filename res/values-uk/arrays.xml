@@ -15,16 +15,15 @@
  * limitations under the License.
  -->
 <resources>
-    <string-array name="entries_heapsize">
-        <item>12 Mб</item>
-        <item>16 Mб</item>
-        <item>24 Mб</item>
-        <item>32 Mб</item>
-    </string-array>
     <string-array name="entries_install_location">
         <item>Автоматично</item>
         <item>Внутрішня пам\u2019ять</item>
         <item>Зовнішня пам\u2019ять</item>
+    </string-array>
+    <string-array name="entries_status_bar_am_pm">
+        <item>Великими літерами</item>
+        <item>Малими літерами</item>
+        <item>Немає (типове знач.)</item>
     </string-array>
     <string-array name="entries_render_effect">
         <item>Без ефектів візуалізації</item>
@@ -208,6 +207,11 @@
         <item>Коліщатко</item>
         <item>Коліщатко (оновлене)</item>
         <item>Лінза</item>
+    </string-array>
+    <string-array name="pref_in_call_style_entries">
+        <item>Повзунки</item>
+        <item>Коліщатко</item>
+        <item>Коліщатко (оновлене)</item>
     </string-array>
     <string-array name="pref_lockscreen_music_headset_entries">
         <item>Вимкнене</item>

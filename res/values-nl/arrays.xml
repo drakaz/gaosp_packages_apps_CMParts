@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
+<!-- 
  * Copyright (C) 2007 The Android Open Source Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
@@ -16,75 +16,75 @@
  -->
 
 <resources>
-
-    <string-array name="entries_recent_apps_num">
-        <item>8</item>
-        <item>12</item>
-        <item>15</item>
+  
+    <string-array name="entries_install_location">
+        <item>Automatisch</item>
+        <item>Intern</item>
+        <item>Extern</item>
     </string-array>
 
-    <string-array name="entries_install_location">
-        <item>Automático</item>
-        <item>Memória interna</item>
-        <item>Cartão SD</item>
+    <string-array name="entries_status_bar_am_pm">
+        <item>Normaal</item>
+        <item>Klein</item>
+        <item>Geen (Standaard)</item>
     </string-array>
 
     <string-array name="entries_render_effect">
-        <item>Sem efeito</item>
-        <item>Modo nocturno (vermelho)</item>
-        <item>Terminal (verde)</item>
-        <item>Azul</item>
-        <item>Âmbar</item>
-        <item>Salmão</item>
-        <item>Magenta</item>
-        <item>Calibrado (N1)</item>
-        <item>Calibrado (N1) avermelhado</item>
-        <item>Calibrado (N1) frio</item>
+        <item>Geen render effect</item>
+        <item>Nachtmodus (rood)</item>
+        <item>Terminal (groen)</item>
+        <item>Blauw</item>
+        <item>Oranje</item>
+        <item>Zalm</item>
+        <item>Paars</item>
+        <item>Gecalibreerd (N1)</item>
+        <item>Gecalibreerd (N1) Licht rood</item>
+        <item>Gecalibreerd (N1) Koud</item>
     </string-array>
 
     <string-array name="render_entries">
-        <item>Modo nocturno (vermelho)</item>
-        <item>Terminal (verde)</item>
-        <item>Azul</item>
-        <item>Âmbar</item>
-        <item>Salmão</item>
-        <item>Magenta</item>
-        <item>Calibrado (N1)</item>
-        <item>Calibrado (N1) avermelhado</item>
-        <item>Calibrado (N1) frio</item>
+        <item>Nachtmodus (Rood)</item>
+        <item>Terminal (Groen)</item>
+        <item>Blauw</item>
+        <item>Oranje</item>
+        <item>Zalm</item>
+        <item>Paars</item>
+        <item>Gekalibreerd (N1)</item>
+        <item>Gekalibreerd (N1) Licht rood</item>
+        <item>Gekalibreerd (N1) Koud</item>
     </string-array>
 
     <string-array name="entries_trackball_colors">
-        <item>Verde</item>
-        <item>Branco</item>
-        <item>Vermelho</item>
-        <item>Azul</item>
-        <item>Amarelo</item>
-        <item>Azul-Piscina</item>
+        <item>Groen</item>
+        <item>Wit</item>
+        <item>Rood</item>
+        <item>Blauw</item>
+        <item>Geel</item>
+        <item>Cyaan</item>
         <item>Magenta</item>
-        <item>Rosa</item>
-        <item>Laranja</item>
-        <item>Azul Claro</item>
-        <item>Aleatório</item>
-        <item>Nenhum</item>
+        <item>Roze</item>
+        <item>Oranje</item>
+        <item>Licht blauw</item>
+        <item>Willekeurig</item>
+        <item>Geen</item>
     </string-array>
 
     <string-array name="entries_dual_led_colors">
-        <item>Verde</item>
-        <item>Âmbar</item>
-        <item>Nenhuma</item>
+        <item>Groen</item>
+        <item>Oranje</item>
+        <item>Geen</item>
     </string-array>
 
     <string-array name="pref_trackball_blink_rate_entries">
-        <item>2 (Rápido)</item>
+        <item>2 (Snel)</item>
         <item>3</item>
-        <item>4 (Médio)</item>
+        <item>4 (Gemiddeld)</item>
         <item>5</item>
-        <item>6 (Lento)</item>
+        <item>6 (Langzaam)</item>
     </string-array>
-
+    
     <string-array name="pref_lockscreen_delay_entries">
-        <item>Imediatamente</item>
+        <item>Gelijk</item>
         <item>1s</item>
         <item>5s</item>
         <item>10s</item>
@@ -97,9 +97,9 @@
     </string-array>
 
     <string-array name="pref_compcache_size_entries">
-        <item>Desactivado</item>
+        <item>Uitgeschakeld</item>
         <item>10%</item>
-        <item>18% (padrão)</item>
+        <item>18% (standaard)</item>
         <item>26%</item>
     </string-array>
 
@@ -113,7 +113,7 @@
     </string-array>
 
     <string-array name="entries_light_filter_reset">
-        <item>Desactivado</item>
+        <item>Uitgeschakeld</item>
         <item>400 lux</item>
         <item>500 lux</item>
         <item>600 lux</item>
@@ -147,7 +147,7 @@
         <item>14</item>
         <item>16</item>
         <item>18</item>
-        <item>20 (padrão)</item>
+        <item>20 (standaard)</item>
         <item>22</item>
         <item>24</item>
         <item>26</item>
@@ -169,20 +169,20 @@
     <string-array name="entries_sound_attenuation">
         <item>0 dB</item>
         <item>4 dB</item>
-        <item>6 dB (padrão)</item>
+        <item>6 dB (standaard)</item>
         <item>8 dB</item>
         <item>10 dB</item>
     </string-array>
 
     <string-array name="entries_sound_limitvol">
-        <item>Definições do sistema</item>
-        <item>Volume da música (padrão)</item>
+        <item>Verlaagde systeem instelling</item>
+        <item>Muziek volume (standaard)</item>
     </string-array>
 
     <string-array name="entries_network_widget">
-        <item>2G/3G+2G</item>
-        <item>2G/3G Apenas</item>
-        <item>2G/3G Apenas/3G+2G</item>
+        <item>2G/3G+2G</item>  
+        <item>Alleen 2G/3G</item>   
+        <item>2G/Alleen 3G/3G+2G</item>
     </string-array>
 
     <string-array name="entries_screentimeout_widget">
@@ -191,21 +191,21 @@
     </string-array>
 
     <string-array name="entries_ring_widget">
-        <item>Som+Vibrar/Vibrar</item>
-        <item>Som/Vibrar</item>
-        <item>Som/Silêncio</item>
-        <item>Som+Vibrar/Vibrar/Silêncio</item>
-        <item>Som/Vibrar/Silêncio</item>
-        <item>Som+Vibrar/Som/Vibrar/Silêncio</item>
+        <item>Geluid+Trillen/Trillen</item>
+        <item>Geluid/Trillen</item>
+        <item>Geluid/Trillen</item>
+        <item>Geluid+Tril/Tril/Stil</item>
+        <item>Geluid/Trillen/Stil</item>
+        <item>Geluid+Trillen/Geluid/Trillen/Stil</item>
     </string-array>
 
     <string-array name="entries_flash_widget">
-        <item>Normal</item>
-        <item>Alto / Death Ray</item>
+        <item>Normaal</item>
+        <item>Hoog</item>
     </string-array>
 
     <string-array name="pref_lockscreen_gestures_sensitivity_entries">
-        <item>1 (amplo)</item>
+        <item>1 (Meest sensitief)</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
@@ -216,47 +216,65 @@
         <item>9</item>
         <item>10</item>
         <item>11</item>
-        <item>12 (restrito)</item>
+        <item>12 (Minst sensitief)</item>
     </string-array>
 
     <string-array name="pref_lockscreen_style_entries">
-        <item>Sliding Tab</item>
-        <item>Rotary</item>
-        <item>Rotary revamped</item>
+        <item>Schuifbalk</item>
+        <item>Draaiend</item>
+        <item>Draaiend (nieuw)</item>
         <item>Lense</item>
     </string-array>
 
+    <string-array name="pref_in_call_style_entries">
+        <item>Schuifbalk</item>
+        <item>Draaiend</item>
+        <item>Draaiend (nieuw)</item>
+    </string-array>
     <string-array name="pref_lockscreen_music_headset_entries">
-        <item>Desactivado</item>
-        <item>Auricular com fio</item>
-        <item>Auricular Bluetooth A2DP</item>
-        <item>Ambos</item>
+        <item>Uitgeschakeld</item>
+        <item>Bedraadde headset</item>
+        <item>Bluetooth A2DP Headset</item>
+        <item>Beiden</item>
     </string-array>
 
     <string-array name="pref_overscroll_effect_entries">
-        <item>Nenhum</item>
-        <item>Brilhar</item>
-        <item>Saltar e brilhar</item>
-        <item>Saltar</item>
+        <item>Geen</item>
+        <item>Rand gloed</item>
+        <item>Stuiter en gloed</item>
+        <item>Stuiter</item>
     </string-array>
 
     <string-array name="entries_overscroll_weight">
-        <item>Extra Pesado</item>
-        <item>Pesado</item>
-        <item>Médio</item>
-        <item>Leve</item>
-        <item>Extra Leve</item>
+        <item>Extra hevig</item>
+        <item>Hevig</item>
+        <item>Gemiddeld</item>
+        <item>Laag</item>
+        <item>Extra Laag</item>
     </string-array>
 
-    <string-array name="phone_goggles_confirmation_entries" translatable="true">
-        <item>@string/phone_goggles_confirmation_none</item>
-        <item>@string/phone_goggles_confirmation_prompt</item>
-        <item>@string/phone_goggles_confirmation_maths</item>
+    <string-array name="entries_vol_actions">
+        <item>Geen/Standaard</item>
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Terug</item>
+        <item>Zoeken</item>
+        <item>Power</item>
+        <item>Bellen</item>
+        <item>Beëindig oproep</item>
+        <item>Afspelen/Pauze</item>
+        <item>Volgende nummer</item>
+        <item>Vorige nummer</item>
+        <item>Lang indrukken home</item>
     </string-array>
 
-    <string-array name="phone_goggles_maths_level_entries" translatable="true">
-        <item>@string/phone_goggles_maths_level_easy</item>
-        <item>@string/phone_goggles_maths_level_medium</item>
-        <item>@string/phone_goggles_maths_level_hard</item>
+    <string-array name="entries_unhide_button">
+        <item>Home</item>
+        <item>Menu</item>
+        <item>Terug</item>
+        <item>Zoeken</item>
+        <item>Camera</item>
+        <item>Volume hoger</item>
+        <item>Volume lager</item>
     </string-array>
-</resources>
+</resources> 
